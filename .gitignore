@@ -1,0 +1,22 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw and processed datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# Saved model files
+models/*.joblib
+models/*.pkl
+
+# Environment secrets
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
