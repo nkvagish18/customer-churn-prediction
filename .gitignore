@@ -1,22 +1,28 @@
-# Python environment
+# Virtual environment
 .venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.py[cod]
-
-# Jupyter
 .ipynb_checkpoints/
 
-# Raw and processed datasets
-data/raw/*.csv
-data/processed/*.csv
+# Datasets
+data/raw/
+data/processed/
+notebooks/*.csv
 
-# Saved model files
-models/*.joblib
+# Model files
 models/*.pkl
+models/*.joblib
 
-# Environment secrets
+# Environment variables
 .env
 
-# Operating system files
+# Backups
+backup/
+
+# System files
 .DS_Store
 Thumbs.db
